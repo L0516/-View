@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android_view.MainActivity">
+
+    <com.example.android_view.BounceBall.BounceBallView
+        android:id="@+id/bbv1"
+        android:layout_width="368dp"
+        android:layout_height="140dp"
+        android:background="#ffffff"
+        app:anim_duration="100000000"
+        app:ball_count="15"
+        app:ball_delay="220"
+        app:bounce_count="3"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <com.example.android_view.sanjiao.MyVideoView
+        android:id="@+id/myloadview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>
